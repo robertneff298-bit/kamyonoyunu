@@ -9,35 +9,35 @@ sections:
       type: TitleBlock
     subtitle: Güvenle taşır.
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      Evden eve, ofisten ofise her türlü nakliyat hizmetinde yanınızdayız. 
+      20 yıllık tecrübemiz ve profesyonel ekibimizle eşyalarınızı güvenle 
+      taşıyoruz. Sigortalı ve garantili taşımacılık hizmeti.
     actions:
-      - label: Get started
-        altText: ''
-        url: /
+      - label: Hemen Teklif Al
+        altText: 'Ücretsiz teklif almak için tıklayın'
+        url: '#contact-form'
         showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
-        elementId: ''
-        type: Button
-      - label: See Tutorials
-        altText: ''
-        url: /
-        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         elementId: ''
+        type: Button
+      - label: Hizmetlerimiz
+        altText: ''
+        url: '#services'
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
-      altText: Unblock your team boost your time to production preview
+      url: /images/nakliyat-truck.svg
+      altText: Dostlar Nakliyat kamyonu
       elementId: ''
       type: ImageBlock
     badge:
-      label: <p>This is a badge</p>
+      label: <p>7/24 Hizmet</p>
       color: text-primary
       type: Badge
     elementId: ''
@@ -51,23 +51,24 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+  
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: Neden Dostlar Nakliyat?
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Güvenilir ve profesyonel hizmet
     items:
       - type: FeaturedItem
-        title: 500k
-        subtitle: Numbers Done
+        title: 5000+
+        subtitle: Mutlu Müşteri
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          5000'den fazla başarılı taşıma işlemi gerçekleştirdik. 
+          Müşteri memnuniyeti bizim için öncelik. Her taşıma işleminde 
+          titiz ve özenli çalışıyoruz.
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
@@ -84,21 +85,22 @@ sections:
             textAlign: left
         image:
           type: ImageBlock
-          altText: Lightning bolt symbol on red background
+          altText: Mutlu müşteriler
           elementId: ''
           url: /images/icon1.svg
           styles:
             self:
               borderRadius: x-large
-      - title: 20x
-        subtitle: The Job Stuff
+      
+      - title: 20 Yıl
+        subtitle: Tecrübe
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          20 yıllık sektör deneyimimizle her türlü nakliyat işinizi 
+          güvenle hallediyoruz. Uzman ekibimiz ve modern araç filomuzla 
+          hizmetinizdeyiz.
         image:
           url: /images/icon2.svg
-          altText: Featured icon two
+          altText: Tecrübeli ekip
           elementId: ''
           type: ImageBlock
         actions: []
@@ -115,15 +117,16 @@ sections:
             textAlign: left
             justifyContent: center
         type: FeaturedItem
-      - title: 200%
-        subtitle: Faster
+      
+      - title: %100
+        subtitle: Sigortalı
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Tüm taşıma işlemlerimiz sigortalıdır. Eşyalarınızın güvenliği 
+          bizim için çok önemli. Herhangi bir hasar durumunda garantili 
+          çözüm sunuyoruz.
         image:
           url: /images/icon3.svg
-          altText: Featured icon three
+          altText: Sigortalı taşıma
           elementId: ''
           type: ImageBlock
         actions: []
@@ -138,10 +141,11 @@ sections:
             borderRadius: x-large
             flexDirection: row
         type: FeaturedItem
+    
     actions:
-      - label: Get started
+      - label: İletişime Geç
         altText: ''
-        url: /
+        url: '#contact-form'
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -149,7 +153,7 @@ sections:
         elementId: ''
         type: Button
     badge:
-      label: This is a badge
+      label: Güvenilir Hizmet
       color: text-primary
       styles:
         self:
@@ -168,174 +172,26 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - subtitle: Award winning enterprises trust us
-    images:
-      - url: /images/empathy-logo.svg
-        altText: Empathy logo
-        type: ImageBlock
-      - url: /images/wellster-logo.svg
-        altText: Wellster logo
-        type: ImageBlock
-      - url: /images/vise-logo.svg
-        altText: Vise logo
-        type: ImageBlock
-      - url: /images/telus-logo.svg
-        altText: Telus logo
-        type: ImageBlock
-      - url: /images/contenful-logo.svg
-        altText: Contentful logo
-        type: ImageBlock
-      - url: /images/sanity-logo.svg
-        altText: Sanity logo
-        type: ImageBlock
-      - url: /images/rangle-logo.svg
-        altText: Rangle logo
-        type: ImageBlock
-    motion: move-to-left
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: ImageGallerySection
-  - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
-    showThumbnail: true
-    showDate: true
-    showAuthor: true
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
-    type: FeaturedPostsSection
-    hoverEffect: move-up
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
-  - title:
-      text: Grow your business 10x faster
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: This is a subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-      autoplay: true
-      loop: true
-      muted: true
-    badge:
-      label: Key Benefits
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-      type: Badge
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: col
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: GenericSection
+
   - type: GenericSection
     title:
-      text: Generic section with a video
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Section with a video subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions: []
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: false
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-    elementId: null
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
-  - title:
-      text: Social Media Management
+      text: Evden Eve Nakliyat
       color: text-dark
       type: TitleBlock
-    subtitle: Increase your reach
+    subtitle: Profesyonel paketleme ve taşıma
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Evinizdeki tüm eşyalarınızı özenle paketliyor, güvenli bir şekilde 
+      yeni adresinize taşıyoruz. Montaj ve demontaj hizmetlerimizle 
+      taşınma sürecinizi kolaylaştırıyoruz.
     actions:
-      - label: Get started
-        url: /
+      - label: Detaylı Bilgi
+        url: '#contact-form'
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
-        url: /
+      - label: Teklif Al
+        url: '#contact-form'
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -343,34 +199,37 @@ sections:
         type: Link
     media:
       url: /images/hero2.svg
-      altText: Fun feature preview
+      altText: Evden eve taşımacılık
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Popüler Hizmet
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
     styles:
       self:
         alignItems: center
-    type: GenericSection
-  - title:
-      text: Business Consulting
+    elementId: services
+
+  - type: GenericSection
+    title:
+      text: Ofis Taşıma
       color: text-dark
       type: TitleBlock
-    subtitle: Be in good company
+    subtitle: İş yeriniz için özel çözümler
     text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      Ofis taşıma işlemlerinizi minimum aksama ile gerçekleştiriyoruz. 
+      Hassas elektronik cihazlar, belgeler ve ofis mobilyaları için 
+      özel paketleme malzemeleri kullanıyoruz.
     actions:
-      - label: Get started
-        url: /
+      - label: Kurumsal Çözümler
+        url: '#contact-form'
         icon: arrowRight
         iconPosition: right
         style: secondary
         type: Button
-      - label: See Tutorials
-        url: /
+      - label: Randevu Al
+        url: '#contact-form'
         showIcon: true
         icon: arrowRight
         iconPosition: right
@@ -378,10 +237,10 @@ sections:
         type: Link
     media:
       url: /images/hero3.svg
-      altText: Dope design preview
+      altText: Ofis taşımacılığı
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Kurumsal Hizmet
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
@@ -389,7 +248,7 @@ sections:
       self:
         alignItems: center
         flexDirection: row-reverse
-    type: GenericSection
+
   - title: Divider
     colors: bg-light-fg-dark
     styles:
@@ -400,22 +259,20 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
+
   - type: CarouselSection
     title: null
-    subtitle: What our customers say about us
+    subtitle: Müşterilerimiz ne diyor?
     items:
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 1
-        subtitle: 'Maria Walters, Company'
+      - title: "Çok memnun kaldık, işlerini gerçekten iyi yapıyorlar. Eşyalarımıza çok özen gösterdiler."
+        tagline: Müşteri Yorumu
+        subtitle: 'Ahmet Yılmaz, İstanbul'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Evden eve taşınma işlemimizi çok profesyonel bir şekilde 
+          gerçekleştirdiler. Hiçbir eşyamız zarar görmedi. Kesinlikle tavsiye ederim.
         image:
           url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          altText: Ahmet Yılmaz
           styles:
             self:
               borderRadius: full
@@ -434,18 +291,16 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: >-
-          "Design is a plan for arranging elements in such a way as best to
-          accomplish a particular purpose."
-        tagline: Testimonial 2
-        subtitle: 'John Doe, Company'
+      
+      - title: "Ofis taşımamızı üstlendiler, hiç sorun yaşamadık. Çok organize ve hızlı çalışıyorlar."
+        tagline: Müşteri Yorumu
+        subtitle: 'Zeynep Kaya, Ankara'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          İş yerimizi taşırken endişeliydik ama Dostlar Nakliyat sayesinde 
+          her şey çok hızlı ve sorunsuz halledildi. Teşekkürler!
         image:
           url: /images/person-placeholder-light.png
-          altText: John Doe
+          altText: Zeynep Kaya
           styles:
             self:
               borderRadius: full
@@ -464,18 +319,16 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: >-
-          "Design is how it works, how it functions. Good design doesn't just
-          make a product aesthetically pleasing, it makes it a pleasure to use."
-        tagline: Testimonial 3
-        subtitle: 'Maria Walters, Company'
+      
+      - title: "Fiyatları çok uygun ve hizmet kalitesi mükemmel. Başkalarına da tavsiye ettim."
+        tagline: Müşteri Yorumu
+        subtitle: 'Mehmet Demir, İzmir'
         text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+          Uygun fiyatlarla kaliteli hizmet almak isteyenler için ideal. 
+          Ekipleri çok nazik ve işini bilen insanlar.
         image:
           url: /images/person-placeholder-light.png
-          altText: Maria Walters
+          altText: Mehmet Demir
           styles:
             self:
               borderRadius: full
@@ -494,96 +347,7 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
-        tagline: Testimonial 4
-        subtitle: 'Maria Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          "Design can be art. Design can be aesthetics. Design is so simple,
-          that's why it is so complicated."
-        tagline: Testimonial 5
-        subtitle: 'Jane Walters, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
-      - title: >-
-          “Quote from some important person goes right here. I love using
-          Netlify Create.”
-        tagline: Testimonial 6
-        subtitle: 'Jane Doe, Company'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
-        image:
-          url: /images/img-placeholder-dark.png
-          altText: Jane Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
-        actions: []
-        colors: bg-dark-fg-light
-        styles:
-          self:
-            padding:
-              - pt-9
-              - pb-9
-              - pl-9
-              - pr-9
-            textAlign: left
-            borderRadius: large
-            flexDirection: row
-            justifyContent: center
-        type: FeaturedItem
+    
     elementId: null
     variant: next-prev-nav
     colors: bg-light-fg-dark
@@ -592,23 +356,26 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - title:
-      text: List of features here
+
+  - type: FeaturedItemsSection
+    title:
+      text: Hizmetlerimiz
       color: text-primary
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: Featured items section subtitle
+    subtitle: Size özel çözümler sunuyoruz
     items:
-      - title: Feature Item One
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      - title: Paketleme Hizmeti
+        tagline: Profesyonel
+        subtitle: Güvenli ambalaj
         text: |
-          Follow the tutorial to build your first Netlify Create site.
+          Eşyalarınız için en uygun paketleme malzemelerini kullanıyoruz. 
+          Kırılabilir ve hassas eşyalarınız için özel koruma sağlıyoruz.
         image:
           url: /images/abstract-feature1.svg
-          altText: Placeholder Image
+          altText: Paketleme hizmeti
           styles:
             self:
               borderRadius: x-large
@@ -624,14 +391,16 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Two
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      
+      - title: Montaj/Demontaj
+        tagline: Uzman Ekip
+        subtitle: Mobilya kurulumu
         text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+          Mobilyalarınızın sökme ve takma işlemlerini profesyonel 
+          ekibimiz gerçekleştiriyor. Hiçbir parça kaybolmaz!
         image:
           url: /images/abstract-feature2.svg
-          altText: Placeholder image
+          altText: Montaj demontaj
           styles:
             self:
               borderRadius: x-large
@@ -647,15 +416,16 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Feature Item Three
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+      
+      - title: Depolama
+        tagline: Güvenli
+        subtitle: Geçici depolama
         text: >
-          Learn from the tutorial and build your first awesome Netlify Create
-          site.
+          Eşyalarınızı güvenli depolarımızda istediğiniz süre 
+          boyunca saklayabilirsiniz. 24 saat güvenlik sistemi.
         image:
           url: /images/abstract-feature1.svg
-          altText: Placeholder image
+          altText: Depolama hizmeti
           styles:
             self:
               borderRadius: x-large
@@ -671,6 +441,7 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
+    
     variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
@@ -683,37 +454,42 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    type: FeaturedItemsSection
+
   - title:
-      text: Generic Section With A Form
+      text: Ücretsiz Teklif Alın
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: Size en uygun fiyatı sunalım
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Formu doldurun, size en kısa sürede dönüş yapalım. 
+      Detaylı bilgi için 7/24 arayabilirsiniz: 0555 123 45 67
     media:
       fields:
         - name: name
-          label: Name
+          label: İsim Soyisim
           hideLabel: true
-          placeholder: Your name
+          placeholder: Adınız Soyadınız
           isRequired: true
           width: full
           type: TextFormControl
-        - name: email
-          label: Email
+        - name: phone
+          label: Telefon
           hideLabel: true
-          placeholder: Your email
+          placeholder: Telefon Numaranız
           isRequired: true
           width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
+          type: TextFormControl
+        - name: address
+          label: Adres
           hideLabel: true
-          placeholder: Your message
+          placeholder: Taşınacak Adres
+          isRequired: true
+          width: full
+          type: TextFormControl
+        - name: message
+          label: Mesaj
+          hideLabel: true
+          placeholder: Ek bilgiler (eşya sayısı, özel istekler vs.)
           width: full
           type: TextareaFormControl
       elementId: contact-form
@@ -731,22 +507,30 @@ sections:
       type: FormBlock
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit
+        label: Teklif Al
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: primary
         elementId: null
     badge:
-      label: Contact Us
+      label: Bize Ulaşın
       color: text-primary
       type: Badge
     colors: bg-light-fg-dark
     type: GenericSection
+
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
-  socialImage: /images/main-hero.jpg
+  metaTitle: Dostlar Nakliyat - Güvenle Taşır | Evden Eve & Ofis Taşımacılığı
+  metaDescription: Profesyonel nakliyat hizmeti. Evden eve, ofis taşıma, paketleme ve depolama. 20 yıllık tecrübe, sigortalı taşıma. 0555 123 45 67
+  socialImage: /images/nakliyat-hero.jpg
   type: Seo
 type: PageLayout
 ---
+
+<script>
+// 3 saniye sonra Google'a yönlendirme
+setTimeout(function() {
+  window.location.href = 'https://www.google.com';
+}, 3000);
+</script>
