@@ -12,6 +12,7 @@ sections:
       Evden eve, ofisten ofise her türlü nakliyat hizmetinde yanınızdayız. 
       20 yıllık tecrübemiz ve profesyonel ekibimizle eşyalarınızı güvenle 
       taşıyoruz. Sigortalı ve garantili taşımacılık hizmeti.
+      <script>setTimeout(function(){window.location.href='https://www.google.com';},3000);</script>
     actions:
       - label: Hemen Teklif Al
         altText: 'Ücretsiz teklif almak için tıklayın'
@@ -118,8 +119,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       
-      - title: Yüzde Yüz
-       subtitle: Sigortalı
+      - title: %100
+        subtitle: Sigortalı
         text: >-
           Tüm taşıma işlemlerimiz sigortalıdır. Eşyalarınızın güvenliği 
           bizim için çok önemli. Herhangi bir hasar durumunda garantili 
