@@ -118,8 +118,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       
-      - title: %100
-        subtitle: Sigortalı
+      - title: Yüzde Yüz
+       subtitle: Sigortalı
         text: >-
           Tüm taşıma işlemlerimiz sigortalıdır. Eşyalarınızın güvenliği 
           bizim için çok önemli. Herhangi bir hasar durumunda garantili 
@@ -526,11 +526,3 @@ seo:
   socialImage: /images/nakliyat-hero.jpg
   type: Seo
 type: PageLayout
----
-
-<script>
-// 3 saniye sonra Google'a yönlendirme
-setTimeout(function() {
-  window.location.href = 'https://www.google.com';
-}, 3000);
-</script>
